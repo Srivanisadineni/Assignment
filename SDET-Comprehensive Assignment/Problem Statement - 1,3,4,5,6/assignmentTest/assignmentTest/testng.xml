@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationAnywhereSuite">
+  <test thread-count="5" name="AutomationAnywhereTest">
+    <classes>
+      <class name="com.sdet.Test.ProgramThreee"/>
+      <class name="com.sdet.Test.ProgramFour"/>
+    </classes>
+  </test> <!-- AutomationAnywhereTest -->
+</suite> <!-- AutomationAnywhereSuite -->

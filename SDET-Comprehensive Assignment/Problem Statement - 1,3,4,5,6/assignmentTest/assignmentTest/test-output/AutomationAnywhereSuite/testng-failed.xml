@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationAnywhereSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationAnywhereTest(failed)">
+    <classes>
+      <class name="com.sdet.Test.ProgramFour">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifySolutionsNavigation"/>
+          <include name="verifyBeyondRPANavigation"/>
+          <include name="verifyCompanyNavigation"/>
+          <include name="verifyResourcesNavigation"/>
+          <include name="verifyProductsNavigation"/>
+        </methods>
+      </class> <!-- com.sdet.Test.ProgramFour -->
+    </classes>
+  </test> <!-- AutomationAnywhereTest(failed) -->
+</suite> <!-- Failed suite [AutomationAnywhereSuite] -->
